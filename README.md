@@ -7,7 +7,6 @@ MC family of maximum clique algorithms, as described in the following papers.
 
 ###MCQ
 
-DS/TODO: correct authors, which proceedigs, insert DOI.
 *An efficient branch-and-bound algorithm for finding a maximum clique*,
 **Etsuji Tomita and Tomokazu Seki**,
 Proceedings of Discrete Mathematics and Theoretical Computer Science. LNCS 2731, pp. 278–289, 2003.
@@ -17,7 +16,7 @@ Proceedings of Discrete Mathematics and Theoretical Computer Science. LNCS 2731,
 
 *An efficient branch-and-bound algorithm for finding a maximum clique with computational experiments*,
 **Etsuji Tomita and Toshikatsu Kameda**,
-Journal of Global Optimization, *37*:95--111, 2007.
+Journal of Global Optimization, **37**:95--111, 2007.
 [doi:10.1007/s10898-006-9039-7](https://doi.org/10.1007/s10898-006-9039-7)
 
 and
@@ -27,14 +26,13 @@ and
 *A simple and faster branch-and-bound algorithm for finding a maximum clique*,
 **Etsuji Tomita, Yoichi Sutani, Takanori Higashi, Shinya Takahashi, and Mitsuo Wakatsuki**,
 Proceedings of WALCOM 2010, LNCS 5942, pp. 191–203, 2010.
-DS/TODO: update DOI.
 [doi:10.1007/978-3-642-20662-7_31](https://doi.org/10.1007/978-3-642-20662-7_31)
 
 ##This package includes:
 
  - C++ code for implementations of MCQ, MCR, and MCS clique algorithms, and their independent set equivalents.
  - The 2nd DIMACS challenge instances used in the original experiments for these algorithms. (in ./data/)
- - A test script used to build and run all algorithms on all data sets (./test.sh)
+ - Test scripts to build and run MCS on all data sets (./test_all.sh and .\test_fast.sh)
 
 Please feel free to contact me with any questions!
 
@@ -60,7 +58,7 @@ or
 $ ./test_all.sh
 ```
 
-to run MCS on all (dimacs) data sets
+to run MCS on all (dimacs 2nd challenge) data sets.
 
 Should you not want to wait the day or so it takes to run all graphs, consider running
 on a smaller subset, such as with the command
@@ -73,17 +71,17 @@ $ ./test_fast.sh
 
 ### Graph Format
 
-Current, the unweighted METIS format is expected:
+Currently, the unweighted METIS format is expected:
 
 <# vertices> <# edges> 1
 
-followed by <#vertices> lines, where the i-th lines contains 
+followed by <#vertices> lines, where the i-th line contains 
 a list of space-separated neighbors of i. All vertices range from 1 to <# vertices>
 
 
 ### Data
 
-data.tar.gz contains the data sets from the 2nd DIMACS Challenge..
+data.tar.gz contains the data sets from the 2nd DIMACS Challenge.
 
 Copyright
 ----
