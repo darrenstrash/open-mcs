@@ -32,7 +32,7 @@ Proceedings of WALCOM 2010, LNCS 5942, pp. 191–203, 2010.
 
  - C++ code for implementations of MCQ, MCR, and MCS clique algorithms, and their independent set equivalents.
  - The 2nd DIMACS challenge instances used in the original experiments for these algorithms. (in ./data/)
- - Test scripts to build and run MCS on all data sets (./test_all.sh and .\test_fast.sh)
+ - Test scripts to build and run MCS on all data sets (./test_all.sh and ./test_fast.sh)
 
 Please feel free to contact me with any questions!
 
