@@ -31,7 +31,7 @@ Proceedings of WALCOM 2010, LNCS 5942, pp. 191–203, 2010.
 ##This package includes:
 
  - C++ code for implementations of MCQ, MCR, and MCS clique algorithms, and their independent set equivalents.
- - The 2nd DIMACS challenge instances used in the original experiments for these algorithms. (in ./data/)
+ - The 2nd DIMACS Challenge instances used in the original experiments for these algorithms. (in ./data/)
  - Test scripts to build and run MCS on all data sets (./test_all.sh and ./test_fast.sh)
 
 Please feel free to contact me with any questions!
@@ -58,7 +58,7 @@ or
 $ ./test_all.sh
 ```
 
-to run MCS on all (dimacs 2nd challenge) data sets.
+to run MCS on all (2nd DIMACS Challenge) data sets.
 
 Should you not want to wait the day or so it takes to run all graphs, consider running
 on a smaller subset, such as with the command
